@@ -1,0 +1,10 @@
+{
+    int num;
+    double real12;
+
+    while ( num < 10 ) {
+
+
+    }
+
+}

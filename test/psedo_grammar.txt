@@ -1,0 +1,20 @@
+S -> A.
+A -> oc B F fc.
+B -> C B | .
+C -> D id;.
+D -> basic E.
+E -> ob num fb E | .
+F -> G F | .
+G -> J equal  L ; | while ( L ) G | do G while ( L ) ; | break ; | A.
+J -> id K.
+K ->  ob L fb K | .
+L -> M | M or or L. 
+M -> N | N and and  M.
+N -> O | O equal equal  N | O not equal N.
+O -> P maior  P | P equal maior  P | P menor equal  P | P menor  P | P.
+P -> T Q.
+Q ->  + T Q  | minus T Q  | .
+T -> V U.
+U -> * V U  | / V U  | .
+V ->  not V | minus V | Y.
+Y ->  ( L ) | J | num | real | true | false.
