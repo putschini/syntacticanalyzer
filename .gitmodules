@@ -1,0 +1,3 @@
+[submodule "lexicanalyzer"]
+	path = lexicanalyzer
+	url = https://github.com/putschini/lexicanalyzer

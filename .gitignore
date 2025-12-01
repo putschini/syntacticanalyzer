@@ -1,5 +1,6 @@
 #Ignore build files
 build/
+lexicanalyzer/
 
 #Ignore ide files
 .vscode/
